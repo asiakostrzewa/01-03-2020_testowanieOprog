@@ -28,6 +28,14 @@ class TDDTest {
                 .isGreaterThan(0)
                 .isEqualTo(4)
                 .isNotNull();
+        /*void divValue(double v1, double v2, double expected)
+        double actual = 0;
+        try {
+        actual = ttd.divValue(v1, v2);
+        assertEquals(expected, actual);
+        } catch (Exception ex) {
+        fail();
+        }*/
     }
 
     @ParameterizedTest
